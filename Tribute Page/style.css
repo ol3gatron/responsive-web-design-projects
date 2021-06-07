@@ -34,6 +34,7 @@ body {
 
 #img-div {
     background-color: white;
+    margin: 15px;
 }
 
 #img-div img {
@@ -66,4 +67,24 @@ body {
 
 #tribute-info ul li {
     padding: 20px;
+}
+
+.quote-div {
+    max-width: 550px;
+    text-align: left;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.quote {
+}
+
+.author {
+    padding: 20px;
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 30px;
 }
