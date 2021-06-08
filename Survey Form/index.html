@@ -8,11 +8,15 @@
     <title>Survey Form</title>
 </head>
 <body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <h5>Thank you for taking the time to help us improve the platform</h5>
     <form action="">
-        <label for="">Name</label>
-        <input type="text">
-        <label for="">Email</label>
-        <input type="email">
+        <p><label for="name">Name</label></p>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+        <p><label for="email">Email</label></p>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <p><label for="age">Age (optional)</label></p>
+        <input type="number" id="age" name="age" value="10" min="10" max="99">
     </form>
 </body>
 </html>
