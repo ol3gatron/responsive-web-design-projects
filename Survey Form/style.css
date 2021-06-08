@@ -7,3 +7,25 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+
+
+.main {
+    background-image: url(https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-color: rgba(5, 43, 105, 0.4);
+}
+
+h1, h5 {
+    text-align: center;
+}
+
+form {
+    background-color: rgba(34, 89, 179, 0.4);
+    display: block;
+    margin: auto;
+    max-width: 550px;
+}
+
+input {
+    margin: 10px;
+}
