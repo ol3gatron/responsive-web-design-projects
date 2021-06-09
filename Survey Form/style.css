@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-weight: 400;
 }
 
 body {
@@ -28,16 +28,20 @@ header {
     font-size: 20px;
     color: white;
     z-index: 2;
-    background-color: hsla(251, 78%, 63%, 0.4);
+    background-color: hsla(251, 78%, 63%, 0.5);
 }
 
 #survey-form {
-    background-color: hsla(250, 90%, 4%, 0.4);
+    background-color: hsla(250, 90%, 4%, 0.8);
     display: block;
     margin: auto;
-    max-width: 700px;
+    max-width: 750px;
     padding: 40px;
     border-radius: 5px;
+}
+
+.form-input {
+    margin-bottom: 30px;
 }
 
 #name, #email, #number, #dropdown {
@@ -62,7 +66,10 @@ header {
     padding: 15px;
     font-size: 16px;
     font-weight: 200;
-    background-color: rgb(96, 168, 24);
+    background-color: #37af65;
     color: white;
 }
 
+input[type="checkbox"] {
+    padding: 100px;
+}
