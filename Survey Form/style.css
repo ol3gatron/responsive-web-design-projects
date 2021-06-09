@@ -40,6 +40,12 @@ header {
     border-radius: 5px;
 }
 
+@media (max-width: 765px) {
+    #survey-form {
+      max-width: 360px;
+    }
+  }
+
 .form-input {
     margin-bottom: 30px;
 }
@@ -68,8 +74,5 @@ header {
     font-weight: 200;
     background-color: #37af65;
     color: white;
-}
-
-input[type="checkbox"] {
-    padding: 100px;
+    cursor: pointer;
 }
