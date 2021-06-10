@@ -11,23 +11,24 @@
 <body>
     <header id="header">
         <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="Company Logo">
-        <nav class="nav-bar">
-            <div class="nav-link"><a href="">Features</a></div>
-            <div class="nav-link"><a href="">How it Works</a></div>
-            <div class="nav-link"><a href="">Pricing</a></div>
+        <nav id="nav-bar">
+            <div><a class="nav-link" href="#features">Features</a></div>
+            <div><a class="nav-link" href="#how-it-works">How it Works</a></div>
+            <div><a class="nav-link" href="#Pricing">Pricing</a></div>
         </nav>
     </header>
-    <form action="https://www.freecodecamp.com/email-submit" id="submit">
-        <h1>Handcrafted, home-made masterpieces</h1>
-        <input type="email" id="email" placeholder="Enter your email adress" required>
+    <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <h1 id="title">Handcrafted, home-made masterpieces</h1>
+        <input type="email" id="email" name="email" placeholder="Enter your email adress" required>
         <br>
-        <button class="submit-btn">Get Started</button>
+        <input type="submit" id="submit" value="Get Started">
+        <!--<button id="submit">Get Started</button>--> 
     </form>
-    <div class="features">
+    <div id="features">
         
         <div class="feature">
             <h1>Premium Materials</h1>
-            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            <p id="description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
         </div>
         <div class="feature">
             <h1>Fast Shipping</h1>
@@ -38,10 +39,10 @@
             <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
         </div>
     </div>
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="how-it-works">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="card-container">
+    <div id="Pricing">
         <div class="card">
             <div class="card-top">
                 <p>Tenor Trombone</p>
@@ -83,9 +84,15 @@
         </div>
     </div>
     <footer>
-        <p>Privicy</p>
-        <p>Terms</p>
-        <p>Contact</p>
+        <div class="info">
+            <p><a href="_blank">Privacy</a></p>
+            <p><a href="_blank">Terms</a></p>
+            <p><a href="_blank">Contact</a></p>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2016, Original Trombones</p>
+        </div>
     </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
