@@ -53,7 +53,7 @@ form h1 {
     margin: 20px;
 }
 
-.submit {
+.submit-btn {
     background-color: #f1c40f;
     padding: 5px 20px;
     text-transform: uppercase;
@@ -62,4 +62,27 @@ form h1 {
     border: none;
     border-radius: 2px;
     cursor: pointer;
+}
+
+.features {
+    max-width: 900px;
+    margin: auto;
+}
+
+.wraper {
+    display: flex;
+}
+
+.feature {
+    margin: 60px;
+}
+
+.video {
+    margin: auto;
+    display: block;
+    max-width: 560px;
+}
+
+iframe {
+    width: 100%;
 }
