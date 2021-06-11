@@ -14,6 +14,7 @@ body {
 #navbar {
     position: fixed;
     border-right: 1px solid black;
+    height: 100%;
 }
 
 #navbar a {
@@ -23,8 +24,15 @@ body {
     padding: 10px 20px;
 }
 
-#navbar header {
+#navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
     border-bottom: 1px solid black;
+    list-style: none;
+    margin: 0;
     
 }
 
@@ -47,4 +55,24 @@ ul {
 
 code {
     background-color: #F7F7F7;
+    width: 100%;
 }
+
+@media (max-width: 815px) {
+    #navbar {
+      width: 100%;
+      position: static;
+      border-bottom: 1px solid black;
+      border-right: none;
+      text-align: center;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding-top: 20px;
+    }
+
+    .main-section {
+        padding: 20px;
+    }
+  }
