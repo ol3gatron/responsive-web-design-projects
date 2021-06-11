@@ -17,13 +17,15 @@ body {
 }
 
 #navbar a {
+    display: block;
     text-decoration: none;
     color: #4d4e53;
+    padding: 10px 20px;
 }
 
 #navbar header {
     border-bottom: 1px solid black;
-    padding: 10px 20px;
+    
 }
 
 #last-nav-link {
