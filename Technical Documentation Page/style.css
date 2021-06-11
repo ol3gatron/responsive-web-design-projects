@@ -53,9 +53,18 @@ ul {
     padding-left: 60px;
 }
 
+.js {
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
 code {
     background-color: #F7F7F7;
-    width: 100%;
+    display: block;
+    width: 500px;
+    
 }
 
 @media (max-width: 815px) {
