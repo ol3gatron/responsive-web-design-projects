@@ -77,3 +77,61 @@ li {
         font-size: 26px;
     }
 }
+
+.container {
+    color: #fafafa;
+    background-color: #45567D;
+    padding-top: 125px;
+    text-align: center;
+}
+
+.container h1 {
+    border-bottom: 2px white solid;
+    display: inline-block;
+    font-size: 40px;
+}
+
+#projects {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.project-tile {
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.project-tile img {
+    width: 400px;
+    height: 425px;
+}
+
+.card-body {
+    max-height: 425px;
+}
+
+.card-bottom {
+    background-color: #303841;
+    padding: 10px;
+}
+
+@media (max-width: 440px) {
+    .project-tile img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .container {
+        padding-top: 75px;
+    }
+
+    .container h1 {
+        font-size: 16px;
+    }
+
+    .card-body {
+        max-height: 200px;
+    }
+}
