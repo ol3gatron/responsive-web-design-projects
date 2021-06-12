@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -29,6 +30,8 @@ li {
     flex-flow: row wrap;
     position: fixed;
     width: 100%;
+    border-bottom: 2px solid rgba(22, 22, 22, 0.3);
+    z-index: 2;
 }
 
 #navbar a {
@@ -54,7 +57,7 @@ li {
 #welcome-section {
     width: 100%;
     height: 100vh;
-    background-color: #262729;
+    background: linear-gradient(90deg, #35373A, #1A1A1C);
     margin: auto;
 }
 
@@ -82,7 +85,13 @@ li {
     color: #fafafa;
     background-color: #45567D;
     padding-top: 125px;
+    padding-bottom: 100px;
     text-align: center;
+}
+
+.container a {
+    text-decoration-line: none;
+    color: #fafafa;
 }
 
 .container h1 {
@@ -101,6 +110,7 @@ li {
 .project-tile {
     text-align: center;
     margin: 20px 40px;
+    cursor: pointer;
 }
 
 .project-tile img {
@@ -115,6 +125,28 @@ li {
 .card-bottom {
     background-color: #303841;
     padding: 10px;
+}
+
+button {
+    color: #fafafa;
+    background-color: #303841;
+    font-size: 22px;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button img {
+    width: 15px;
+    filter: invert(100%) sepia(20%) saturate(0%) hue-rotate(96deg) brightness(108%) contrast(96%);
+    z-index: 1;
+}
+
+button:hover {
+    background-color: #BE3144;
+    transition: 0.5s;
 }
 
 @media (max-width: 440px) {
@@ -133,5 +165,60 @@ li {
 
     .card-body {
         max-height: 200px;
+    }
+}
+
+
+footer {
+    width: 100%;
+    height: 95vh;
+    background-color: #303841;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    padding-top: 35vh;
+    font-size: 56px;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+.subheader {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-size: 20px;
+    color: #fafafa;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    color: #fafafa;
+    padding-top: 40px;
+}
+
+.social a {
+    text-decoration-line: none;
+}
+
+.profile-link {
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 28px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+@media (max-width: 440px) {
+    .header {
+        font-size: 28px;
+    }
+
+    .profile-link {
+        font-size: 18px;
     }
 }
