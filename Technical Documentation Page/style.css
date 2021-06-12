@@ -73,6 +73,8 @@ code {
       border-bottom: 1px solid black;
       border-right: none;
       text-align: center;
+      overflow-y: scroll;
+      height: 200px;
     }
 
     #main-doc {
