@@ -7,52 +7,50 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: arial,sans-serif;
 }
 
-header {
-    padding: 30px 20px;
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    width: 100%;
+a {
+    text-decoration: none;
 }
 
-.logo img {
-    width: 90px;
+.search-results {
+    padding-left: 175px;
+    max-width: 900px;
 }
 
-#search-form {
-    border-radius: 30px;
-    border: 1px solid lightgrey;
-    padding: 13px;
-    margin-left: 50px;
-    width: 700px;
+#est {
+    color: #70757a;
+    padding: 5px 20px;
+    font-size: 14px;
 }
 
-.menu {
-    padding: 0 10px;
+.search-link {
+    padding: 15px 20px;
 }
 
-.profile {
-    padding: 0 10px;
+.link-link {
+    color: #4d5156;
+    font-size: 14px;
 }
 
-.profile img {
-    width: 33px;
-    border-radius: 50%;
+.link-header {
+    color: #1a0dab;
+    font-size: 20px;
 }
 
-.personal {
-    display: flex;
-    position: fixed;
-    right: 0;
-    padding-right: 20px;
-    align-items: center;
+.link-header:hover {
+    text-decoration: underline;
 }
 
-.nav {
-    max-width: 700px;
-    margin-left: 170px;
-    display: flex;
+.search-link-body p {
+    line-height: 1.58;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .search-results {
+        padding-left: 0;
+    }
 }
