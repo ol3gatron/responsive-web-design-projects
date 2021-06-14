@@ -26,7 +26,7 @@ a {
 }
 
 .search-link {
-    padding: 15px 60px 15px 20px;
+    padding: 15px 20px 15px 20px;
 }
 
 .link-link {
@@ -137,6 +137,10 @@ a {
     background-position: 5%;
 }
 
+.related-search-links:hover {
+    text-decoration: underline;
+}
+
 .related-search-links a {
     padding: 10px 5px 10px 50px;
     color: black;
@@ -173,6 +177,9 @@ footer {
     color: #70757a;
     font-size: 14px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 100%;
 }
 
 .footer2-link {
@@ -188,11 +195,15 @@ footer {
         padding-bottom: 5px;
     }
 
+    .related-search {
+        justify-content: space-around;
+    }
+
     footer {
         padding: 20px;
     }
 
-    .foooter2 {
+    .footer2 {
         padding: 20px;
     }
 
