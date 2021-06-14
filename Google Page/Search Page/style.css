@@ -183,7 +183,7 @@ footer {
 }
 
 .footer2-link {
-    margin-right: 30px;
+    padding-right: 30px;
 }
 
 @media (max-width: 900px) {
