@@ -146,9 +146,10 @@ a {
 
 footer {
     background-color: #F2F2F2;
-    padding: 20px 0px 20px 175px;
+    padding: 20px 0px 10px 175px;
     color: #70757a;
     font-size: 14px;
+    border-bottom: 1px solid lightgrey;
 }
 
 .foooter1 {
@@ -162,9 +163,23 @@ footer {
 
 .sych {
     padding-left: 20px;
+    font-weight: bold;
+    color: #3c4043;
 }
 
-@media (max-width: 440px) {
+.footer2 {
+    background-color: #F2F2F2;
+    padding: 20px 0px 20px 175px;
+    color: #70757a;
+    font-size: 14px;
+    display: flex;
+}
+
+.footer2-link {
+    margin-right: 30px;
+}
+
+@media (max-width: 900px) {
     .builders {
         justify-content: space-around;
     }
@@ -177,7 +192,15 @@ footer {
         padding: 20px;
     }
 
+    .foooter2 {
+        padding: 20px;
+    }
+
     .foooter1 {
         flex-wrap: wrap;
+    }
+
+    .ru {
+        border: none;
     }
 }
