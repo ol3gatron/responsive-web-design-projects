@@ -46,35 +46,67 @@ main {
     margin-right: 8px;
 }
 
-.search-form {
-    margin: auto 400px;
-    width: 500px;
+.logo {
+    margin: 200px auto 0px auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
 }
 
-.search-input {
-    padding: 15px 15px 15px 40px;
+.search {
+    display: flex;
+    margin: auto;
+    max-width: 575px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.search input {
+    width: 100%;
+    padding: 15px 0px 15px 40px;
     border-radius: 25px;
-    width: 500px;
     border: 1px solid #dfe1e5;
-    background: url(../media/loopa2.png) no-repeat;
-    background-position: 3%;
+    background-image: url(..//media/loopa2.png), url(..//media/mic.png);
+    background-repeat: no-repeat;
+    background-position: 3%, 97%;
 }
 
-.form-button {
+.buttons {
+    margin: 20px auto;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 5px;
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
     color: #3c4043;
-    padding: 5px 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    border: 1px solid #dadce0;
 }
 
 .language {
+    margin: auto;
+    width: 200px;
     font-size: 13px;
+    color: #222222;
+    display: flex;
+    justify-content: center;
 }
 
-.language a:hover {
+#ru a {
+    color: #1a0dab;
+}
+
+#ru a:hover {
     text-decoration: underline;
-    color: blue;
 }
 
 footer {
@@ -108,6 +140,7 @@ footer {
 
 .footer-link p{
    padding: 5px;
+   cursor: pointer;
 }
 
 .footer-link2 {
@@ -117,10 +150,31 @@ footer {
 
 .footer-link2 p{
     padding: 5px;
+    cursor: pointer;
+}
+
+.footer-link p:hover{
+    text-decoration: underline;
+ }
+
+.footer-link2 p:hover{
+    text-decoration: underline;
 }
 
 @media (max-width: 715px) {
+    .search input {
+        width: 90%;
+    }
+
+    .footer1 {
+        display: none;
+    }
+
     .footer2 {
         justify-content: center;
+    }
+
+    .logo {
+        margin: 20px auto 0px auto;
     }
 }
