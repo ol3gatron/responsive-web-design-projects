@@ -15,74 +15,53 @@ a {
 }
 
 header {
+    border-bottom: 1px solid #dadce0;
+    
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid lightgrey;
-    padding: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+
+.nav-search-input {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .profile {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 100px;
 }
 
-.menus {
-    width: 15px;
-    height: 15px;
-    
+#google-logo {
+    width: 90px;
 }
 
-.profile-pic {
+#menus {
+    padding-right: 20px;
+}
+
+#profile-pic {
     width: 32px;
     border-radius: 50%;
-    margin-right: 8px;
 }
 
-.navbar {
-    display: flex;
-}
-
-.logo img {
-    width: 100px;
-}
-
-.search-input {
-    display: flex;
-    flex-flow: column wrap;
-    width: 650px;
-
-}
-
-.search-input input {
-    padding: 15px 40px 15px 40px;
+#search-input {
     border-radius: 25px;
-    border: 1px solid #dfe1e5;
-}
-
-.search-input-link {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    color: #5f6368;
-    padding-top: 30px;
-}
-
-.search-input-link-1 {
-    display: flex;
-}
-
-.search-input-link-1-item {
-    padding: 5px;
-}
-
-.search-input-link-2-item {
-    padding: 5px;
-}
-
-.search-input-link-2 {
-    display: flex;
+    padding: 15px;
+    width: 690px;
+    margin-left: 50px;
+    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+    border: none;
+    font-size: 16px;
 }
 
 .search-results {
@@ -108,6 +87,7 @@ header {
 .link-header {
     color: #1a0dab;
     font-size: 20px;
+    padding-top: 10px;
 }
 
 .link-header:hover {
