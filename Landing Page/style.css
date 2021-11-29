@@ -36,6 +36,109 @@ header ul li a {
   text-decoration: none;
 }
 
+.main {
+  display: flex;
+  padding: 130px 0;
+  gap: 100px;
+}
+
+.main-text {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.sub-title {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.sign-up {
+  height: 37px;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 16px;
+  margin: 15px 0;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  color: #e5e7eb;
+  flex: 1;
+  height: 240px;
+}
+
+.section-two {
+  padding: 55px 310px;
+}
+
+.info-text {
+  display: flex;
+  justify-content: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.elements {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.elements-item {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 170px;
+}
+
+.box-item {
+  height: 170px;
+  width: 170px;
+  border: 4px solid #3b82f6;
+  border-radius: 15px;
+}
+
+.box-text {
+  padding: 10px 6px;
+}
+
+.section-three {
+  padding: 55px 350px;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 800;
+}
+
 footer {
   display: flex;
   justify-content: center;
