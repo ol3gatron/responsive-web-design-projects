@@ -139,6 +139,47 @@ header ul li a {
   font-weight: 800;
 }
 
+.section-four {
+  color: #fff;
+  padding: 55px 250px;
+}
+
+.call-to-action {
+  background-color: #3b82f6;
+  padding: 55px 120px;
+  border-radius: 7px;
+  display: flex;
+}
+
+.action-left {
+  flex: 1;
+}
+
+.action-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.action-title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.action-subtitle {
+  font-weight: 300;
+}
+
+.action-right-button {
+  border: 2px solid #fff;
+  background-color: #3b82f6;
+  color: #fff;
+  border-radius: 7px;
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
 footer {
   display: flex;
   justify-content: center;
