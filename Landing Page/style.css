@@ -72,6 +72,12 @@ header ul li a {
   margin: 15px 0;
 }
 
+.sign-up:hover {
+  color: #3882f6;
+  background-color: #f9faf8;
+  transition: 200ms;
+}
+
 .image {
   display: flex;
   justify-content: center;
