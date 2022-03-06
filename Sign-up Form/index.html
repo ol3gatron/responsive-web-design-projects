@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sigh-up form</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo">
+        <img src="/Sign-up Form/media/odin-lined.png" alt="" />
+        <p>Odin</p>
+      </div>
+      <p class="credits">
+        Photo by
+        <a href="https://unsplash.com/photos/25xggax4bSA" target="blank"
+          >Halie West</a
+        >
+        on
+        <a href="https://unsplash.com/" target="blank">Unsplash</a>
+      </p>
+    </div>
+    <form action="http://httpbin.org/post" method="post">
+      <div class="form-description">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.
+        </p>
+        <p>Sign up <i>now</i> to get started.</p>
+        <p>You <i>know</i> you want to.</p>
+      </div>
+      <div class="form-input">
+        <div class="title">Let's do this!</div>
+        <div class="inputs">
+          <div class="input-item">
+            <p><label for="firstName">First Name</label></p>
+            <input type="text" id="firstName" name="firstName" required />
+          </div>
+
+          <div class="input-item">
+            <p><label for="lastName">Last Name</label></p>
+            <input type="text" id="lastName" name="lastName" required />
+          </div>
+
+          <div class="input-item">
+            <p><label for="email">Email</label></p>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="input-item">
+            <p><label for="phone">Phone Number</label></p>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              inputmode="numeric"
+              required
+            />
+          </div>
+
+          <div class="input-item pass">
+            <p><label for="password">Password</label></p>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              minlength="5"
+              required
+            />
+          </div>
+
+          <div class="input-item">
+            <p><label for="confirm">Confirm Password</label></p>
+            <input
+              type="password"
+              id="confirm"
+              name="confirm"
+              minlength="5"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="confirm">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="">Log In</a></p>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
