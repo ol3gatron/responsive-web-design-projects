@@ -21,6 +21,10 @@ ul {
   list-style: none;
 }
 
+ul li {
+  cursor: pointer;
+}
+
 .header {
   background-color: #ffffff;
   padding: 20px 50px;
@@ -46,6 +50,7 @@ ul {
 
 .sidebar ul li {
   font-size: 18px;
+  font-weight: bold;
   display: flex;
   align-items: center;
   margin-top: 15px;
@@ -82,10 +87,15 @@ ul {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  cursor: pointer;
 }
 
 .card p:nth-child(1) {
   font-weight: bold;
+}
+
+.card p:nth-child(2) {
+  color: #636363;
 }
 
 .card p:nth-child(3) {
@@ -114,11 +124,16 @@ ul {
 .announcements-item {
   padding: 20px;
   border-bottom: 3px solid #eee;
+  cursor: pointer;
 }
 
 .announcements-item p:first-child {
   font-weight: bold;
   padding: 5px 0;
+}
+
+.announcements-item p:nth-child(2) {
+  color: #636363;
 }
 
 .announcements-item:last-child {
@@ -135,6 +150,11 @@ ul {
   padding: 10px;
   display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.trending-item p:nth-child(2) {
+  color: #636363;
 }
 
 .trending-item img {
@@ -167,6 +187,15 @@ ul {
 .top-right > p {
   font-weight: bold;
   padding: 0 20px;
+  cursor: pointer;
+}
+
+.top-right > img {
+  cursor: pointer;
+}
+
+.top-right > span {
+  cursor: pointer;
 }
 
 .top-left > span {
@@ -235,4 +264,5 @@ ul {
   margin: 0 15px;
   font-weight: bold;
   font-size: 16px;
+  cursor: pointer;
 }
