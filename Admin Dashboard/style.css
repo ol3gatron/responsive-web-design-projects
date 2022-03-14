@@ -7,10 +7,13 @@
   font-family: "Roboto", sans-serif;
 }
 
+.material-icons {
+  padding: 0 10px;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 5fr;
-  grid-template-rows: 1fr 1fr 3fr;
 }
 
 ul {
@@ -22,13 +25,121 @@ ul {
 }
 
 .sidebar {
+  padding: 20px;
   color: white;
   background-color: #1992d4;
   grid-column: 1 / 2;
-  grid-row: 1 / -1;
+}
+
+.sidebar p {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+
+.sidebar ul {
+  margin-top: 25px;
 }
 
 .sidebar ul li {
   font-size: 18px;
-  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.main {
+  background-color: #e2e8f0;
+  display: flex;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-projects {
+  flex-basis: 70%;
+}
+
+.main-projects > p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border-radius: 5px;
+  border-left: 7px solid #f0b429;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card p:nth-child(1) {
+  font-weight: bold;
+}
+
+.card p:nth-child(3) {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0;
+}
+
+.activities {
+  flex-basis: 30%;
+}
+
+.activities > p {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.announcements {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+
+.announcements-item {
+  padding: 20px;
+  border-bottom: 3px solid #eee;
+}
+
+.announcements-item p:first-child {
+  font-weight: bold;
+  padding: 5px 0;
+}
+
+.announcements-item:last-child {
+  border: none;
+}
+
+.trending {
+  padding: 0 20px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.trending-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.trending-item img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.author {
+  margin-left: 15px;
 }
