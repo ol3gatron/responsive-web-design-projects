@@ -266,3 +266,95 @@ ul li {
   font-size: 16px;
   cursor: pointer;
 }
+
+.menu {
+  position: absolute;
+  right: -9000px;
+  top: -9999px;
+}
+
+.menu-close {
+  position: absolute;
+  top: -9999px;
+  right: -9999px;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 440px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu {
+    position: static;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  .header {
+    padding: 10px 10px;
+  }
+
+  label > span.material-icons {
+    padding: 0;
+  }
+
+  .search-input {
+    margin: 0 5px;
+  }
+
+  .top {
+    margin-bottom: 0;
+  }
+
+  .top img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .top-right > p {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  .top-left {
+    flex-basis: auto;
+  }
+
+  .top-right {
+    flex-basis: auto;
+  }
+
+  .bottom {
+    display: none;
+  }
+
+  .main {
+    flex-direction: column;
+  }
+
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar {
+    height: 100vh;
+    position: absolute;
+    right: -9999px;
+    top: -9999px;
+    transition: ease-in-out;
+  }
+
+  .menu-close {
+    position: relative;
+    top: inherit;
+    right: inherit;
+  }
+}
