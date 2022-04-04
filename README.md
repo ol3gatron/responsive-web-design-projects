@@ -10,4 +10,4 @@ Product Landing Page - https://codepen.io/olgtron/full/poeOVNP <br/>
 Sign-up Form - https://codepen.io/olgtron/full/dyZrQOw <br/>
 Survey Form - https://codepen.io/olgtron/full/LYWBgwj <br/>
 Technical Documentation Page - https://codepen.io/olgtron/full/PopybYG <br/>
-Tribute Page - https://codepen.io/olgtron/pen/MWpXrOP <br/>
+Tribute Page - https://codepen.io/olgtron/full/MWpXrOP <br/>
