@@ -1,268 +1,309 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-    border-bottom: 1px solid #dadce0;
-    
+  border-bottom: 1px solid #dadce0;
+  width: 100%;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 30px;
+  display: flex;
+  align-items: center;
+  padding: 30px 50px 30px 160px;
+  width: 100%;
 }
 
 .nav-search-input {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .profile {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #google-logo {
-    width: 90px;
+  width: 90px;
+  position: absolute;
+  left: 40px;
+  margin: 10px;
 }
 
 #menus {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 #profile-pic {
-    width: 32px;
-    border-radius: 50%;
+  width: 32px;
+  border-radius: 50%;
 }
 
 #search-input {
-    border-radius: 25px;
-    padding: 15px;
-    width: 690px;
-    margin-left: 50px;
-    box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
-    border: none;
-    font-size: 16px;
+  border-radius: 25px;
+  padding: 15px;
+  width: 690px;
+  box-shadow: 0 2px 5px 1px rgb(64 60 67 / 16%);
+  border: none;
+  font-size: 16px;
 }
 
 .search-results {
-    padding-left: 160px;
-    max-width: 840px;
+  padding-left: 160px;
+  max-width: 840px;
 }
 
 #est {
-    color: #70757a;
-    padding: 5px 20px;
-    font-size: 14px;
+  color: #70757a;
+  padding: 5px 20px;
+  font-size: 14px;
 }
 
 .search-link {
-    padding: 15px 20px 15px 20px;
+  padding: 15px 20px 15px 20px;
 }
 
 .link-link {
-    color: #4d5156;
-    font-size: 14px;
+  color: #4d5156;
+  font-size: 14px;
 }
 
 .link-header {
-    color: #1a0dab;
-    font-size: 20px;
-    padding-top: 10px;
+  color: #1a0dab;
+  font-size: 20px;
+  padding-top: 10px;
 }
 
 .link-header:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .search-link-body p {
-    line-height: 1.58;
-    font-size: 14px;
-    font-weight: 500;
+  line-height: 1.58;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 @media (max-width: 900px) {
-    .search-results {
-        padding-left: 0;
-    }
+  .search-results {
+    padding-left: 0;
+  }
 }
 
 .related {
-    color: #202124;
-    padding: 10px 20px;
+  color: #202124;
+  padding: 10px 20px;
 }
 
 .related-header {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    border-bottom: 1px solid lightgrey;
-    font-size: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+  font-size: 22px;
 }
 
 .bestbuilder {
-    padding: 15px 0px 25px 0px;
-    font-size: 16px;
+  padding: 15px 0px 25px 0px;
+  font-size: 16px;
 }
 
 .builders {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .builders-link a {
-    color: #202124;
+  color: #202124;
 }
 
 .builders-link a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .builders-link a p {
-    padding-left: 5px;
-    font-size: 14px;
+  padding-left: 5px;
+  font-size: 14px;
 }
 
 .seemore {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 20px 0px 30px 0px;
-    border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 20px 0px 30px 0px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .more {
-    border: 1px solid #dadce0;
-    color: #1a0dab;
-    background-color: white;
-    padding: 10px;
-    width: 275px;
-    border-radius: 15px;
-    cursor: pointer;
-    background-image: url(..//media/arrow-right.png);
-    background-repeat: no-repeat;
-    background-position: 5%;
+  border: 1px solid #dadce0;
+  color: #1a0dab;
+  background-color: white;
+  padding: 10px;
+  width: 275px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-image: url(..//media/arrow-right.png);
+  background-repeat: no-repeat;
+  background-position: 5%;
 }
 
 .more:hover {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
 
 .related-search {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }
 
 .related-search-links {
-    background-color: #F1F3F4;
-    width: 300px;
-    height: 100%;
-    border-radius: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 10px 0px;
-    background-image: url(..//media/loopa.png);
-    background-repeat: no-repeat;
-    background-position: 5%;
+  background-color: #f1f3f4;
+  width: 300px;
+  height: 100%;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0px;
+  background-image: url(..//media/loopa.png);
+  background-repeat: no-repeat;
+  background-position: 5%;
 }
 
 .related-search-links:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .related-search-links a {
-    padding: 10px 5px 10px 50px;
-    color: black;
-    font-size: 16px;
-    font-weight: bold;
+  padding: 10px 5px 10px 50px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 footer {
-    background-color: #F2F2F2;
-    padding: 20px 0px 10px 175px;
-    color: #70757a;
-    font-size: 14px;
-    border-bottom: 1px solid lightgrey;
+  background-color: #f2f2f2;
+  padding: 20px 0px 10px 175px;
+  color: #70757a;
+  font-size: 14px;
+  border-bottom: 1px solid lightgrey;
 }
 
 .foooter1 {
-    display: flex;
+  display: flex;
 }
 
 .ru {
-    border-right: 1px solid lightgrey;
-    padding: 5px 20px 5px 0px;
+  border-right: 1px solid lightgrey;
+  padding: 5px 20px 5px 0px;
 }
 
 .sych {
-    padding-left: 20px;
-    font-weight: bold;
-    color: #3c4043;
+  padding-left: 20px;
+  font-weight: bold;
+  color: #3c4043;
 }
 
 .footer2 {
-    background-color: #F2F2F2;
-    padding: 20px 0px 20px 175px;
-    color: #70757a;
-    font-size: 14px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    max-width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px 0px 20px 175px;
+  color: #70757a;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  max-width: 100%;
 }
 
 .footer2-link {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 @media (max-width: 900px) {
-    .builders {
-        justify-content: space-around;
-    }
+  #search-input {
+    width: 100%;
+    margin: 0;
+  }
 
-    .builders-link {
-        padding-bottom: 5px;
-    }
+  #menus {
+    padding: 10px;
+  }
 
-    .related-search {
-        justify-content: space-around;
-    }
+  #google-logo {
+    position: static;
+    width: 130px;
+  }
 
-    footer {
-        padding: 20px;
-    }
+  .builders {
+    justify-content: space-around;
+  }
 
-    .footer2 {
-        padding: 20px;
-    }
+  .builders-link {
+    padding-bottom: 5px;
+  }
 
-    .foooter1 {
-        flex-wrap: wrap;
-    }
+  .related-search {
+    justify-content: space-around;
+  }
 
-    .ru {
-        border: none;
-    }
+  footer {
+    padding: 20px;
+  }
+
+  .footer2 {
+    padding: 20px;
+  }
+
+  .foooter1 {
+    flex-wrap: wrap;
+  }
+
+  .ru {
+    border: none;
+  }
+
+  nav {
+    width: 100%;
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .nav-search-input {
+    width: 100%;
+  }
+
+  .nav-wrapper {
+    width: 100%;
+    display: flex;
+  }
+
+  .profile {
+    flex-wrap: nowrap;
+    padding: 0 10px;
+  }
 }
